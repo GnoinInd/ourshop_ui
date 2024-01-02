@@ -1,0 +1,121 @@
+/* 
+.drop-down{
+    background-color: red;
+    width:30%;
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+    opacity: 0;
+    top: 10rem;
+}
+.drop-down-hidden:hover {
+    visibility: visible;
+    opacity: 1;
+    top: 1;
+} */
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 19px 18px;
+    background-color: inherit;
+    font: inherit;
+    margin: 0;
+    color: black;
+    text-decoration: none;
+    padding: 14px;
+    font-weight:lighter;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+.dropdown .dropbtn  a::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    background: black;
+    transition: 0.2s;
+    display: block;
+    margin: auto;
+    gap:3rem;
+}
+.dropdown .dropbtn a:hover::after {
+    width: 80px;
+    
+  }
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    color: #4175FC;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 40%;
+    left: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content .header {
+    background: red;
+    padding: 16px;
+    color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    /* width: 33.33%; */
+    width:45%;
+    padding: 10px;
+    background-color: #ccc;
+    height: 350px;
+}
+
+.column a {
+    float: none;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.column a:hover {
+    background-color: #ddd;
+}
+.row{
+    display: flex;
+    
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.img-fluid  {
+    max-width: 100%;
+    height: 50px;
+}
+
+.img-div img {
+  height: 20px;
+    width: 20px;
+}

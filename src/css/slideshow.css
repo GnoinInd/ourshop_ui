@@ -1,0 +1,95 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slideImage {
+  height: 50vh;
+}
+
+.slideImage img {
+  height: 435px;
+  width: 100%;
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slidebar-offer {
+  position: absolute;
+  top: 30%;
+  display: flex;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%
+}
+
+.slideImage-title {
+  position: relative;
+  left: 36%;
+  background-color: red;
+  width: 10%;
+  height: 120px;
+  border-radius: 50%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  bottom: 110px;
+
+}
+
+.slideImage-shopname {
+  background-color: orange;
+  width: 10%;
+  left: 700px;
+  bottom: 230px;
+  position: relative;
+
+
+}
+
+.slideImage-subtitle {
+  position: relative;
+  bottom: 220px;
+}
+
+.slideshow-button {
+  position: relative;
+  bottom: 230px;
+}
+
+.slideshow-button button {
+  background-color: red;
+  border: none;
+  padding: 14px 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  transition: 0.2s;
+}
+
+.slideshow-button button:hover {
+  background-color: orange;
+
+}
+
+

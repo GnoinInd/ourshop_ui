@@ -1,0 +1,143 @@
+.orderpage {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    padding: none;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.orderpage-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.orderpage-img {
+    height: 45vh;
+    width: 25%;
+    margin-right: 300px;
+}
+
+.orderpage-content {
+    position: relative;
+    right: 18%;
+    display: flex;
+    text-align: start
+}
+
+.orderpage-name h3 {
+    color: rgb(77, 73, 73);
+    font-size: 25px;
+    font-weight: 600;
+    padding: 0;
+
+}
+
+.orderpage-name h5 {
+    font-size: 25px;
+    font-weight: 600;
+    padding: 0;
+
+}
+
+.orderpage-star-review p:first-child {
+    background-color: green;
+    border-radius: 36%;
+    color: white;
+    padding: 4px 8px;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.orderpage-star-review p {
+    color: rgb(121, 115, 115);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.orderpage-price {
+    display: flex;
+    gap: 30px;
+}
+
+.orderpage-price p:first-child {
+    font-size: 35px;
+    font-weight: 500;
+
+
+}
+
+.orderpage-price p:last-child {
+    color: rgb(105, 102, 102);
+    font-weight: 450;
+    font-size: 25px;
+    position: relative;
+    top: 18%;
+
+}
+
+.orderpage-star-review {
+    display: flex;
+    gap: 10px;
+}
+
+.orderpage-name p {
+    color: green;
+    font-weight: 500;
+}
+
+.orderpage-extra-feature span {
+    color: rgb(126, 121, 121);
+    margin-right: 15%;
+}
+
+.orderpage-extra-feature h4 {
+    color: green;
+}
+
+.orderpage-order {
+    display: flex;
+    
+    justify-content: center;
+    position: relative;
+    right: 1%;
+    bottom:26%;
+}
+
+.orderpage-order-addtocart {
+
+    display: flex;
+    gap: 5px;
+}
+
+.orderpage-order-addtocart button:first-child {
+    border: none;
+    padding: 12px 52px;
+    background-color: rgb(255, 159, 0);
+    margin-bottom: 50px;
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.orderpage-order-addtocart button:last-child {
+    border: none;
+    padding: 12px 52px;
+    background-color: rgb(251, 100, 27);
+    margin-bottom: 50px;
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+}
+.shop-wishlist-orderpage{
+    position: relative;
+    bottom:100%;
+    left:40%;
+}
+.orderpage-extra-feature p{
+    display: flex;
+    gap:40px;
+}

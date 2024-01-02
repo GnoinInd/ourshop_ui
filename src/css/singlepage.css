@@ -1,0 +1,39 @@
+
+
+.addtocartpagesingle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    border-bottom: 2px solid green;
+    padding-bottom: 5px;
+    margin:12px;
+
+}
+
+.addtocart-image {
+    width: 80px;
+    height: 80px;
+    display: flex;
+}
+
+.addtocart-image img {
+    height: 100%;
+    width: 100%;
+
+}
+.addtocart-totalprice span:nth-child(1){
+font-size: 2rem;
+font-weight: bold;
+letter-spacing: 2px;
+color:green;
+}
+.addtocart-totalprice span:nth-child(2){
+    font-size: 2rem;
+    font-weight: bold;
+    float: right;
+    color:green;
+    
+    }
+
+/* .addtocart-button {} */

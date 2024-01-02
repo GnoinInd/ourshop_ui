@@ -1,0 +1,406 @@
+.profile-img-1 {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-image: url("https://cdn.pixabay.com/photo/2023/09/16/18/18/wallpaper-8257343_1280.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+
+
+}
+
+
+/* .Navbar {
+    width: 100%;
+    height: 40px;
+    background-color: darkgreen;
+  
+  }
+  
+  .nav-ul {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+  
+  
+  }
+  
+  .nav-ul li {
+    display: inline-block;
+    padding: 10px;
+    
+  
+  }
+  
+  .nav-ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+   
+    font-weight: 600;
+    font-family: sans-serif;
+  }
+  
+  .nav-ul li a:hover {
+    color: black;
+    text-transform: capitalize;
+    font-weight: bold;
+  
+    font-family: sans-serif;
+  
+  }
+   */
+.logo {
+  height: 30px;
+  width: 40px;
+  float: left;
+  padding: 6px;
+  border-radius: 50%;
+}
+
+.rightside {
+  float: right;
+  text-align: right;
+}
+
+.leftHome {
+  float: left;
+  /* margin-left: 10%; */
+
+
+}
+
+
+
+.inputBox {
+  border: 2px solid green;
+  padding: 10px;
+  width: 300px;
+  display: block;
+  margin: 20px;
+  background-color: transparent;
+
+}
+
+.appButton {
+  margin: 25px;
+  padding: 10px;
+  width: 120px;
+  background-color: green;
+  cursor: pointer;
+  border: 1px solid;
+  margin-right: 750px;
+  color: black;
+  font-weight: bold;
+  transition: 0.2s;
+  background-color: transparent;
+  position: relative;
+  left:58%;
+
+}
+
+.appButton:hover {
+  background-color: white;
+  color: green;
+  font-weight: bold;
+  background-color: transparent;
+}
+
+.login {
+  
+    background-color: rgb(161, 151, 151);
+    width: 100%;
+    height:50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  height:80vh;
+
+}
+.login-form{
+  background-color: white;
+  width:30%;
+  height:290px;
+  box-shadow:   0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+  border-radius: 6%;
+}
+.login-inputbox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.login h1 {
+  margin-right: 4%;
+  padding: 30px;
+  color:white;
+}
+.login-redirectpage{
+  display: flex;
+  
+}
+.login-redirectpage li{
+  list-style: none;
+  
+}
+.login-redirectpage a{
+  position: relative;
+  top:30%;
+  right:80px;
+  text-decoration: none;
+  font-weight: 600;
+}
+.login-redirectpage p{
+  color:red;
+  position: relative;
+  right:50%;
+}
+
+.signup {
+  background-color: rgb(161, 151, 151);
+    width: 100%;
+    height:50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  height:80vh;
+}
+
+.signup h1 {
+  margin-right: 4%;
+  padding: 30px;
+  color:white;
+}
+.signup-form{
+  background-color: white;
+  width:30%;
+  height:330px;
+  box-shadow:   0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+  border-radius: 6%;
+}
+
+.profile-box {
+  border: 2px solid green;
+  width: 33.33%;
+  height: 540px;
+  text-align: center;
+  align-items: center;
+  display: inline-grid;
+  justify-content: center;
+  background-color: white;
+  border-radius: 20%;
+
+
+}
+
+.profile-box h1 {
+  color: green;
+}
+
+.profile h1 {
+  color: red;
+
+  list-style-type: style;
+  padding: 12px;
+  position: relative;
+}
+
+.profile::after {
+  content: '';
+  position: absolute;
+  left: 45%;
+  top: 17%;
+  width: 15%;
+  height: auto;
+  border: 2px solid red;
+  border-top-color: green
+}
+
+.profile-img {
+  width: 100%;
+  height: 100%;
+}
+
+.profile-img img {
+  width: 30%;
+  padding: 10px;
+  border-radius: 90%;
+}
+
+.profile-custom {
+  width: 40%;
+  /* left:-50px; */
+  position: relative;
+  /* top:-130px;  */
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  top: -31%;
+  left: 1%;
+}
+
+.profile-custom h1,
+h4 {
+  color: green;
+}
+
+.profile-custom h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+
+}
+
+.profile-custom h4 {
+  top: -20px;
+  position: relative;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.profile-details {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 42%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 12%;
+}
+
+.profile-details h2 {
+  font-size: 15px;
+  color: green;
+  padding: 0;
+  margin: 0;
+}
+
+.profile-details h1 {
+  font-size: 25px;
+  color: black;
+  padding: 0;
+  margin: 0;
+}
+
+.profile-menu {
+  padding: 23px;
+  width: 20%;
+  justify-content: start;
+
+}
+
+.profile-btn {
+
+  /* width:100%;
+    height:100%; */
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  left: 89%;
+  top: 70%;
+  height:10px;
+}
+
+.profile-btn input {
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  width: auto;
+  font-weight: bold;
+  border-radius: 40%;
+  /* min-height: 1vh; */
+  height:50px;
+
+
+}
+
+.profile-btn input:hover {
+  background-color: red;
+}
+
+.profile-btn li {
+  background-color: red;
+  padding: 5px 30px;
+  list-style: none;
+  border-radius: 40%;
+  cursor: pointer;
+
+}
+
+.profile-btn li:hover {
+  background-color: green;
+}
+
+.material-symbols-outlined {
+  color: white;
+  position: relative;
+  right: 10px;
+}
+
+.profile-btn li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+
+.profile-orderlist {
+  position: relative;
+  left: 160%;
+  bottom: 255px;
+}
+
+.profile-order {
+  padding: 15px;
+}
+.profile-order a:hover{
+  color:orange
+}
+.profile-orderlist li{
+ list-style: none;
+
+}
+.profile-orderlist li a{
+  text-decoration: none;
+  color:green;
+  font-weight: bold;
+  padding:8px;
+  transition: 0.2s;
+}
+
+.profile-wishlist {
+  padding: 15px;
+}
+.profile-wishlist a:hover {
+ color:orange;
+}
+.profile-logout {
+  padding: 15px;
+}
+.profile-logout a:hover{
+color:orange;
+}

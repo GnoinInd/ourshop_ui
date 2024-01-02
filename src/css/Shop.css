@@ -1,0 +1,195 @@
+.shop-details-data {
+    width: 100%;
+    /* height:100vh; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+.shop-detail {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+
+}
+
+.shopdetail-img img {
+    border-radius: 60%;
+    width: 170px;
+    height: 170px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    /* box-shadow: 2px 3px 4px 1px;
+    background-color: white; */
+
+
+
+
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.Shop-sndsections {
+    padding: 15px;
+
+}
+
+.Shop-sndsection {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.shop-sndsection-img {
+    height: 230px;
+    width: 230px;
+
+}
+
+.shop-sndsection-img img {
+    height: 100%;
+    width: 100%;
+    border-radius: 20%;
+    padding: 23px;
+    transition: all 0.3s ease-in-out;
+}
+
+.shop-sndsection-img img:hover {
+    transform: scale(0.9);
+    transition: all 0.2s ease-in-out;
+}
+
+.shop-title h3 {
+    padding: 14px;
+
+}
+
+.shop-title,
+.Shop-button {
+    right: 30px;
+    position: relative;
+}
+
+.Shop-button {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Shop-button button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.Shop-button button:hover {
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    /* border:2px solid green; */
+
+}
+
+.shop-title h2 {
+    padding: 0;
+}
+
+.shop-detail button {
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 0;
+    border: none;
+    background-color: white;
+}
+
+.shop-title-2 {
+    padding: 23px;
+    color: rgb(29, 30, 31);
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 44px;
+}
+
+.mycontainer {
+    width: 92%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+.myrow::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+.mycol {
+    float: left;
+    box-sizing: border-box;
+}
+
+
+.mycol-1 {
+    width: 8.33%;
+}
+
+.mycol-2 {
+    width: 16.66%;
+}
+
+.mycol-3 {
+    width: 25%;
+}
+
+.mycol-4 {
+    width: 33.33%;
+}
+
+.mycol-6 {
+    width: 50%;
+}
+
+.mycol-8 {
+    width: 66.66%;
+}
+
+.mycol-12 {
+    width: 100%;
+}
+
+.shop-image-slidebar {
+    width: 100%;
+    height: 50vh;
+}
+
+.shop-image-slidebar img {
+    height: 100%;
+    width: 100%;
+}
+.shop-wishlist{
+    position: relative;
+    bottom:117%;
+    left:45%;
+    font-size: 25px;
+}

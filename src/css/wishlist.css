@@ -1,0 +1,28 @@
+.wishlist-wishlist{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.wishlist-image img{
+    width:100%;
+    height:100%;
+}
+.wishlist-image{
+    width:16%;
+    height:150px;
+    
+}
+.wishlist-data{
+    display: flex;
+    padding:10px;
+    margin:10px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.wishlist-button button{
+    border:none;
+    padding:10px;
+    font-size: 14px;
+    font-weight: 600;
+}

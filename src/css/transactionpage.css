@@ -1,0 +1,17 @@
+.transactionpage{
+    display: flex;
+    justify-content: space-between;
+    margin-right:200px;
+    margin-left:200px;
+    margin-bottom:200px;
+    margin-top:50px;
+    padding:0;
+}
+.transactionpage button{
+    border:none;
+    background-color: green;
+    padding:2px 17px;
+    color:white;
+    font-weight: 700;
+
+}

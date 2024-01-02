@@ -1,0 +1,167 @@
+[
+    {
+       
+        "image":"https://cdn.pixabay.com/photo/2018/01/17/07/06/laptop-3087585_1280.jpg",
+        "title":"Kartica Shop",
+        "rating":5,
+        "description":"You are Ready",
+        "location":"westbengal",
+        "city":"kolkata"
+    },
+    {
+        
+        "image":"https://cdn.pixabay.com/photo/2015/07/31/11/45/library-869061_1280.jpg",
+        "title":"Ariyan Shop",
+        "rating":5,
+        "description":"You are Ready",
+        "location":"westbengal",
+        "city":"siliguri"
+    },
+    {
+        
+        "image":"https://cdn.pixabay.com/photo/2016/11/22/21/57/apparel-1850804_640.jpg",
+        "title":"Binay Shop",
+        "rating":5,
+        "description":"You are Ready",
+        "location":"assam",
+        "city":"gawhati"
+    },
+    {
+        
+        "image":"https://cdn.pixabay.com/photo/2017/01/28/02/24/japan-2014618_640.jpg",
+        "title":"Rudra Shop",
+        "rating":5,
+        "description":"You are Ready",
+        "location":"westbengal",
+        "city":"alipurduar"
+    },
+    {
+        
+        "image":"https://cdn.pixabay.com/photo/2020/01/30/21/24/shop-4806610_640.jpg",
+        "title":"Abhi Shop",
+        "rating":5,
+        "description":"You are Ready",
+        "location":"bihar",
+        "city":"pabanpur"
+    },
+    {
+       
+        "image":"https://cdn.pixabay.com/photo/2016/11/22/19/08/hangers-1850082_640.jpg",
+        "title":"Rishi Shop",
+        "rating":5,
+        "description":"You are Ready",
+        "location":"westbengal",
+        "city":"alipurduar"
+    },
+    {
+        
+        "image":"https://cdn.pixabay.com/photo/2023/07/03/12/48/hoi-an-8104131_640.jpg",
+        "title":"Sanu Shop",
+        "rating":5,
+        "description":"You are Ready",
+        "location":"jharkhand",
+        "city":"rachi"
+    },
+    {
+       
+        "image":"https://cdn.pixabay.com/photo/2019/07/13/16/44/woman-4335235_640.jpg",
+        "title":"Golam Shop",
+        "rating":5,
+        "description":"You are Ready",
+        "location":"bihar",
+        "city":"gajiyabad"
+    },
+    {
+       
+        "image":"https://cdn.pixabay.com/photo/2020/10/06/11/55/woman-5632026_640.jpg",
+        "title":"Shekhar Shop",
+        "rating":5,
+        "description":"You are Ready",
+        "location":"mp",
+        "city":"mpur"
+    },
+    {
+        
+        "image":"https://cdn.pixabay.com/photo/2014/09/09/19/05/antique-440337_640.jpg",
+        "title":"Sunit Shop",
+        "rating":5,
+        "description":"You are Ready",
+        "location":"assam",
+        "city":"gawhati"
+    },
+    {
+        
+        "image":"https://cdn.pixabay.com/photo/2013/08/01/18/21/woman-169286_640.jpg",
+        "title":"Apurba Shop",
+        "rating":5,
+        "description":"You are Ready",
+        "location":"assam",
+        "city":"silong"
+    },
+    {
+      
+        "image":"https://cdn.pixabay.com/photo/2018/04/13/11/14/shoes-3316260_640.jpg",
+        "title":"Laxmi Shop",
+        "rating":5,
+        "description":"You are Ready",
+        "location":"jharkhand",
+        "city":"jhar" 
+    },
+    {
+        
+        "image":"https://cdn.pixabay.com/photo/2019/02/10/15/09/clothes-3987460_640.jpg",
+        "title":"Durga Shop",
+        "rating":5,
+        "description":"You are Ready",
+        "location":"jharkhand",
+        "city":"khand"
+    },
+    {
+        
+        "image":"https://cdn.pixabay.com/photo/2017/08/05/13/31/building-2583628_640.jpg",
+        "title":"Rajib Shop",
+        "rating":5,
+        "description":"You are Read",
+        "location":"mp",
+        "city":"madanpu"
+    },
+    {
+        
+        "image":"https://cdn.pixabay.com/photo/2018/04/13/11/14/shoes-3316260_640.jpg",
+        "title":"Mou Shop",
+        "rating":5,
+        "description":"You are Ready",
+        "location":"mp",
+        "city":"udaypur"
+    },
+    {
+       
+        "image":"https://cdn.pixabay.com/photo/2016/04/19/13/39/store-1338629_640.jpg",
+        "title":"Virat Shop",
+        "rating":5,
+        "description":"You are Ready",
+        "location":"bihar",
+        "city":"binaypur"
+    },
+    {
+        
+        "image":"https://cdn.pixabay.com/photo/2013/03/27/22/25/dress-shop-97261_640.jpg",
+        "title":"Rohit Shop",
+        "rating":5,
+        "description":"You are Ready",
+        "location":"bihar",
+        "city":"badalpur"
+    },
+    {
+        
+        "image":"https://cdn.pixabay.com/photo/2013/03/27/22/25/dress-shop-97261_640.jpg",
+        "title":"gnion Shop",
+        "rating":5,
+        "description":"You are Ready",
+        "location":"bihar",
+        "city":"gahangirpur"
+
+    }
+  
+
+]
